@@ -1,0 +1,18 @@
+.footer {
+    font-size: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px auto;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+}
+
+
+.footer span {
+    color: #acacac;
+}
