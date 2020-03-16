@@ -1,0 +1,33 @@
+.timetable {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 80%;
+  table-layout: fixed;
+}
+
+.timetable td, .timetable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.timetable tbody:nth-child(even) { background-color: #f6f6f6;}
+
+.timetable-extra-info { font-size: 70%; }
+
+.age-groups {
+  display: flex;
+  justify-content: space-between;
+  font-size: 80%;
+  margin: 40px 0;
+}
+
+.download-timetable {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 30px;
+  color: var(--font-color);
+}
+
+.download-timetable > div { margin-right: 5px; }
