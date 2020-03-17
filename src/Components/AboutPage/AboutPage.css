@@ -1,0 +1,19 @@
+.about {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 155%;
+  text-align: center;
+}
+
+.about-icons {
+  width: 200px;
+  margin: 10px auto;
+}
+
+.about-photo {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo img { height: 100%; }

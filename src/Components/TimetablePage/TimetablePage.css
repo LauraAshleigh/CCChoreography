@@ -30,4 +30,6 @@
   color: var(--font-color);
 }
 
+.download-timetable:hover{ color: var(--red-color); }
+
 .download-timetable > div { margin-right: 5px; }

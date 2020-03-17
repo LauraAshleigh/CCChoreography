@@ -1,0 +1,18 @@
+.social-icons-wrapper{
+  display: grid;
+  align-items: center;
+  font-size: 200%;
+  column-gap: 10px;
+}
+
+.two-icons { grid-template-columns: repeat(2, 1fr); }
+.three-icons { grid-template-columns: repeat(3, 1fr); }
+
+.social-icons-wrapper a { text-align: center; }
+
+.social-icons-wrapper i,
+.social-icons-wrapper i:link,
+.social-icons-wrapper i:visited { color: var(--font-color); }
+
+.social-icons-wrapper i:hover,
+.social-icons-wrapper i:active { color: var(--red-color); }

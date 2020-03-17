@@ -12,7 +12,7 @@ const timetablePage = () => {
     <PageWrapper title='2020 Timetable'>
       <a href={Timetable} download className='download-timetable'>
         <div>Download PDF</div>
-        <i className='fas fa-download'></i>
+        <i className='fas fa-download'/>
       </a>
 
       <table className='timetable'>

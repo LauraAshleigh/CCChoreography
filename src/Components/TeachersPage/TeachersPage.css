@@ -1,0 +1,50 @@
+.teacher-grid {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  margin-bottom: 50px;
+}
+
+.teacher-text { 
+  line-height: 145%; 
+  align-self: center;
+}
+
+.teacher-name {
+  font-weight: 600;
+  font-size: 110%;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.teacher-position {
+  font-family: 'JustLovely';
+  font-size: 150%;
+  margin-bottom: 20px;
+}
+
+.teacher-about {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 90%;
+}
+
+
+.teacher-avatar {
+  height: 250px;
+  width: 250px;
+  position: relative;
+}
+
+.teacher-avatar img:first-of-type { 
+  height: 100%;
+  width: 100%;
+}
+
+.teacher-avatar img:nth-child(2) {
+  height: 65%;
+  width: 65%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+}
