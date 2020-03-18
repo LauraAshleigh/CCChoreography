@@ -24,7 +24,7 @@ const teachers = [
     + '<br>1st  - Senior Jazz Troupe'
     + '<br>3rd - Senior Contemporary Troupe'
 
-    + '<br><br><br><br><b>Time To Shine 2019:</b>'
+    + '<br><br><b>Time To Shine 2019:</b>'
     + '<br>1st - Lyrical Troupe 14&U'
     + '<br>1st - Contemporary Troupe 14&U'
     + '<br>1st - Jazz Troupe 14&U'

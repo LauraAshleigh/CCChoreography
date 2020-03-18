@@ -2,6 +2,7 @@ import React from 'react'
 import Icons from '../Icons/Icons'
 import PageWrapper from '../PageWrapper/PageWrapper'
 import aboutPhoto from '../../images/about-photo.jpg'
+import InfoPack from './InfoPack.pdf'
 import './AboutPage.css'
 
 const aboutPage = () => {
@@ -17,12 +18,17 @@ const aboutPage = () => {
         We offer Jazz, Tap, Ballet, Contemporary, Hip Hop, Musical Theatre, Acrobatics &amp; Dance,
         Technique Class, Eisteddfod Troupes, Tiny Tots, Private Lessons, Adults &amp; Pilates.
         <br/><br/>
-        Find us on Social Media or Email for a 2020 information pack.  
+        Find us on Social Media or Email for any enquiries.  
       </div>
      
       <div className='about-icons'>
         <Icons instagram facebook email />
       </div>
+
+      <a href={InfoPack} download className='download-info-pack'>
+        <div>Download 2020 Information Pack</div>
+        <i className='fas fa-download'/>
+      </a>
 
       <div className='about-photo'>
         <img src={aboutPhoto} alt='CC Choreography' />

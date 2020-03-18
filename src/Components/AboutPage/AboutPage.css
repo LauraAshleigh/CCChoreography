@@ -3,6 +3,7 @@
   margin: 0 auto;
   line-height: 155%;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .about-icons {
@@ -15,5 +16,17 @@
   display: flex;
   justify-content: center;
 }
+
+.download-info-pack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--font-color);
+  margin: 50px 0;
+}
+
+.download-info-pack:hover { color: var(--red-color); }
+
+.download-info-pack div { margin-right: 5px; }
 
 .about-photo img { height: 100%; }

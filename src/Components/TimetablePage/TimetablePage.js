@@ -2,7 +2,7 @@ import React from 'react'
 import { ageGroups, timetable } from './TimetableConfig'
 import PageWrapper from '../PageWrapper/PageWrapper'
 import './TimetablePage.css'
-import Timetable from './Timetable.pdf'
+import InfoPack from '../AboutPage/InfoPack.pdf'
 
 const timetablePage = () => {
   const times = Object.keys(timetable)
@@ -10,7 +10,7 @@ const timetablePage = () => {
 
   return (
     <PageWrapper title='2020 Timetable'>
-      <a href={Timetable} download className='download-timetable'>
+      <a href={InfoPack} download className='download-timetable'>
         <div>Download PDF</div>
         <i className='fas fa-download'/>
       </a>
