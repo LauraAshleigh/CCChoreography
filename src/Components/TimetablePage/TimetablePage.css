@@ -1,14 +1,7 @@
 .timetable {
   width: 100%;
   text-align: center;
-  border-collapse: collapse;
   font-size: 80%;
-  table-layout: fixed;
-}
-
-.timetable td, .timetable th {
-  border: 1px solid #ddd;
-  padding: 8px;
 }
 
 .timetable tbody:nth-child(even) { background-color: #f6f6f6;}

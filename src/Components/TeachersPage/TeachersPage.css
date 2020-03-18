@@ -27,6 +27,14 @@
   font-size: 90%;
 }
 
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  column-gap: 10%;
+}
+
+.awards-grid, .performance-list { font-size: 85%; }
+
 
 .teacher-avatar {
   height: 250px;

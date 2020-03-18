@@ -1,0 +1,33 @@
+.fees-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+}
+
+.fees-table { font-size: 85%; }
+
+.fees-table th { text-align: left; }
+
+.fees-table td, .fees-table th { 
+  width: 50%; 
+  vertical-align: baseline;
+}
+
+.fees-text {
+  width: 80%;
+  margin: 50px auto;
+  line-height: 145%;
+}
+
+.fees-subheading { 
+  margin: 20px 0; 
+  color: var(--red-color);
+  font-size: 110%;
+}
+
+.fees-info { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 90%;
+}
+
+.fees-info a { color: var(--font-color); }

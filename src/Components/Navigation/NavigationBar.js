@@ -4,7 +4,6 @@ import Icons from '../Icons/Icons'
 import ccsymbol from '../../images/symbol-black.png'
 import './NavigationBar.css'
 
-
 const navigationBar = () => {
   return (
     <div className='nav-bar'>
