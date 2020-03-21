@@ -1,5 +1,5 @@
 import chelsea from '../../images/chelsea.jpg'
-import max from '../../images/max.png'
+import max from '../../images/max.jpeg'
 import bella from '../../images/bella.png'
 
 const teachers = [

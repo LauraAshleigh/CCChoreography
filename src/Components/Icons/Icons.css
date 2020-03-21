@@ -8,7 +8,10 @@
 .two-icons { grid-template-columns: repeat(2, 1fr); }
 .three-icons { grid-template-columns: repeat(3, 1fr); }
 
-.social-icons-wrapper a { text-align: center; }
+.social-icons-wrapper a { 
+  align-self: flex-start;
+  margin: 0 auto;
+}
 
 .social-icons-wrapper i,
 .social-icons-wrapper i:link,
@@ -16,3 +19,13 @@
 
 .social-icons-wrapper i:hover,
 .social-icons-wrapper i:active { color: var(--red-color); }
+
+.icon-and-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-text {
+  font-size: 30%;
+  text-align: center;
+}

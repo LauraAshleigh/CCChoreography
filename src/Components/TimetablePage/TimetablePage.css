@@ -20,9 +20,6 @@
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 30px;
-  color: var(--font-color);
 }
-
-.download-timetable:hover{ color: var(--red-color); }
 
 .download-timetable > div { margin-right: 5px; }

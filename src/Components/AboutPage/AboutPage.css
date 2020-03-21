@@ -1,32 +1,43 @@
-.about {
-  width: 80%;
-  margin: 0 auto;
-  line-height: 155%;
-  text-align: center;
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5%;
+  line-height: 145%;
+  font-size: 90%;
   font-family: 'Open Sans', sans-serif;
 }
+
+.about-grid img { width: 100%; }
 
 .about-icons {
   width: 200px;
   margin: 10px auto;
 }
 
-.about-photo {
-  height: 200px;
-  display: flex;
-  justify-content: center;
-}
-
 .download-info-pack {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--font-color);
-  margin: 50px 0;
+  font-family: var(--lemonmilk);
+  margin: 30px 0;
 }
-
-.download-info-pack:hover { color: var(--red-color); }
 
 .download-info-pack div { margin-right: 5px; }
 
-.about-photo img { height: 100%; }
+.dance-styles-heading {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-family: var(--lemonmilk);
+  font-size: 250%;
+  margin: 60px 0 20px 0;
+}
+
+.dance-styles-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.dance-styles-grid img { width: 100%; }

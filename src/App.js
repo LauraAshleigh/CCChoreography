@@ -7,6 +7,7 @@ import AboutPage from './Components/AboutPage/AboutPage'
 import TeachersPage from './Components/TeachersPage/TeachersPage'
 import TimetablePage from './Components/TimetablePage/TimetablePage'
 import FeesPage from './Components/FeesPage/FeesPage'
+import TestimonialsPage from './Components/TestimonialsPage/TestimonialsPage'
 import GalleryPage from './Components/GalleryPage/GalleryPage'
 import ContactPage from './Components/ContactPage/ContactPage'
 import Footer from './Components/Footer/Footer'
@@ -21,6 +22,7 @@ const app = () => {
         <Route path='/teachers' component={TeachersPage}/>
         <Route path='/timetable' component={TimetablePage}/>
         <Route path='/fees' component={FeesPage}/>
+        <Route path='/testimonials' component={TestimonialsPage}/>
         <Route path='/gallery' component={GalleryPage}/>
         <Route path='/contact' component={ContactPage}/>
       </Switch>

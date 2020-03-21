@@ -1,0 +1,28 @@
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5%;
+  row-gap: 10px;
+}
+
+.testimonial {
+  line-height: 145%;
+  font-family: var(--opensans);
+}
+
+blockquote { 
+  font-style: italic;
+}
+
+blockquote:before{
+  content: "\201C";
+  font-size: 400%;
+  font-family: monospace;
+  display: block;
+}
+
+cite {
+  display: block;
+  margin: 20px 0;
+  font-family: var(--lemonmilk);
+}
