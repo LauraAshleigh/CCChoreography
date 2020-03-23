@@ -86,6 +86,7 @@
   .cc-choreography {
     height: 100px;
     margin-top: 80px;
+    letter-spacing: 4px;
   }
   .cc-choreography, .tag-line { font-size: 300%; }
   .img-wrapper-left, .img-wrapper-right { 
@@ -100,16 +101,24 @@
     font-size: 210%; 
     height: 80px;
     margin-top: 20px;
+    letter-spacing: 3px;
   }
   .tag-line { font-size: 230%; }
   .key-statements { display: none; }
-  .home-page-gallery { display: -webkit-box; display: flex; }
+  .home-page-gallery { 
+    display: -webkit-box; 
+    display: flex; 
+  }
   .img-wrapper-left, .img-wrapper-right { display: none; }
   .divider-small-screen { display: block; }
   .divider-large-screen { display: none; }
 }
 
 @media only screen and (max-width: 480px) {
-  .cc-choreography { font-size: 180%; }
-  .tag-line { font-size: 200%; }
+  .cc-choreography { 
+    font-size: 175%; 
+    letter-spacing: 2px;
+  }
+  .tag-line { font-size: 230%; }
+  .home-page-gallery { height: 35vh; }
 }
