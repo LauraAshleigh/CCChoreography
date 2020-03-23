@@ -3,6 +3,8 @@ import { ageGroups, timetable } from './TimetableConfig'
 import PageWrapper from '../PageWrapper/PageWrapper'
 import './TimetablePage.css'
 import InfoPack from '../AboutPage/InfoPack.pdf'
+import PerfectScrollbar from 'react-perfect-scrollbar'
+import 'react-perfect-scrollbar/dist/css/styles.css'
 
 const timetablePage = () => {
   const times = Object.keys(timetable)
@@ -14,28 +16,30 @@ const timetablePage = () => {
         <div>Download PDF</div>
         <i className='fas fa-download'/>
       </a>
-
-      <table className='timetable'>
-        <thead>
-          <tr>
-            <th>Times</th>
-            {days.map(day =>
-              <th key={day}>{day}</th>
-            )}
-          </tr>
-        </thead>
-
-        {times.map(time =>
-          <tbody key={time}>
+      
+      <PerfectScrollbar>
+        <table className='timetable'>
+          <thead>
             <tr>
-              <th>{time === 'Extra' ? '' : time}</th>
+              <th>Times</th>
               {days.map(day =>
-                <td key={day} dangerouslySetInnerHTML={{__html: timetable[time][day]}}/>
+                <th key={day}>{day}</th>
               )}
             </tr>
-          </tbody>
-          )}
-      </table>
+          </thead>
+
+          {times.map(time =>
+            <tbody key={time}>
+              <tr>
+                <th>{time === 'Extra' ? '' : time}</th>
+                {days.map(day =>
+                  <td key={day} dangerouslySetInnerHTML={{__html: timetable[time][day]}}/>
+                )}
+              </tr>
+            </tbody>
+            )}
+        </table>
+      </PerfectScrollbar>
 
       <div className='age-groups-wrapper'>
         <div className='red-text'>Age Groups:</div>
