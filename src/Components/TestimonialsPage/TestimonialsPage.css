@@ -1,16 +1,20 @@
 .testimonial-grid {
   width: 90%;
-  margin: 0 auto 50px 0;
   line-height: 145%;
   display: grid;
   grid-template-columns: 30% 1fr;
   column-gap: 10%;
   align-items: center;
+  margin-bottom: 50px;
 }
 
-.testimonial-grid + hr {
+.divider {
+  margin-top: 30px;
+}
+
+.divider hr {
   width: 80%;
-  margin: 30px auto 80px auto;
+  margin: 0 auto;
   height: 1px;
   border: none;
   background-color: #ddd;
@@ -20,6 +24,7 @@
   height: 250px;
   width: 250px;
   position: relative;
+  justify-self: end;
 }
 
 .stars-and-name img:first-of-type { 
@@ -55,3 +60,27 @@
 }
 
 .review-text { margin-top: 10px; }
+
+@media only screen and (max-width: 1023px){
+  .stars-and-name { 
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 896px){
+  .testimonial-grid { column-gap: 5%; }
+}
+
+@media only screen and (max-width: 767px){
+  .testimonial-grid { 
+    width:100%;
+    grid-template-columns: 1fr; 
+  }
+
+  .stars-and-name { 
+    width: 180px;
+    height: 180px;
+    justify-self: center;
+  }
+}

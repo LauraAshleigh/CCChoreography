@@ -30,7 +30,7 @@ const aboutPage = () => {
           <img src={everyoneWelcome} alt='CC Choreography' />
         </div>
         
-        <div>
+        <div className='about-text'>
           CC Choreography (formerly Black Swan Dance) welcomes everyone from beginners to experienced dancers, of all ages!
           <br/><br />
           Our specialised teachers support, encourage, nurture and promote a passion for dance in a safe and welcoming environment.
@@ -39,18 +39,32 @@ const aboutPage = () => {
           <br/><br/>
           We offer Jazz, Tap, Ballet, Contemporary, Hip Hop, Musical Theatre, Acrobatics &amp; Dance,
           Technique Class, Eisteddfod Troupes, Tiny Tots, Private Lessons, Adults &amp; Pilates.
-          <br/><br/>
           
-          Find us on Social Media or Email us for any enquiries.
-          <div className='about-icons'>
-            <Icons instagram facebook email />
-          </div>
+          <div className='social-and-download-large-screen'>
+            <br/>
+            Find us on Social Media or Email us for any enquiries.
+            <div className='about-icons'>
+              <Icons instagram facebook email />
+            </div>
 
-          <a href={InfoPack} download className='download-info-pack'>
-            <div>Download 2020 Information Pack</div>
-            <i className='fas fa-download'/>
-          </a>
+            <a href={InfoPack} download className='download-info-pack'>
+              <div>Download 2020 Information Pack</div>
+              <i className='fas fa-download'/>
+            </a>
+          </div>
         </div>
+      </div>
+
+      <div className='social-and-download-small-screen'>
+        Find us on Social Media or Email us for any enquiries.
+        <div className='about-icons'>
+          <Icons instagram facebook email />
+        </div>
+
+        <a href={InfoPack} download className='download-info-pack'>
+          <div>Download 2020 Information Pack</div>
+          <i className='fas fa-download'/>
+        </a>
       </div>
      
      <h2 className='dance-styles-heading'>Dance Styles</h2>

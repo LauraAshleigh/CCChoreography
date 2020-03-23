@@ -42,7 +42,7 @@ const contactPage = () => {
           <iframe 
             className='map'
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.4698683030606!2d151.7349957147447!3d-32.912181977473566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b7315a8623a528d%3A0xe400a8fc4bf35bee!2s23%2F54%20Clyde%20St%2C%20Hamilton%20North%20NSW%202292!5e0!3m2!1sen!2sau!4v1584760620760!5m2!1sen!2sau' 
-            title='CC Choreography Map' width='450' height='450' frameborder='0' style={{border: '0'}} allowfullscreen='' aria-hidden='false' tabindex='0' 
+            title='CC Choreography Map' /* width='450' height='450' */ frameborder='0' allowfullscreen='' aria-hidden='false' tabindex='0' 
           />
         </div>
 

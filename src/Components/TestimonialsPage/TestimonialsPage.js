@@ -32,17 +32,24 @@ const testimonialsPage = () => {
               <div> {testimonial.name} ({testimonial.year})</div>
             </div> */}
             
+            <div>
             <div className='review'>
             
               <div className='quotation-mark'>&#8220;</div>
               <div className='review-text'>{testimonial.review}</div>
               
+              
             </div>
+            {key === testimonials.length - 1 ? null :
+            <div className='divider'>
+              <hr/>
+              </div>
+            }
+          </div>
 
           </div>
-          {key === testimonials.length - 1 ? null :
-            <hr/>
-          }
+          
+          
         </React.Fragment>
       )}
 

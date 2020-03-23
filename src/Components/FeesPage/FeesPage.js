@@ -7,9 +7,13 @@ import './FeesPage.css'
 const feesPage = () => {
   return (
     <PageWrapper title='Fees'>
-      <div className='fees-grid'>
+      <div className='fees-grid-large-screen'>
         <FeesTable tableContent={fees1} />
         <FeesTable tableContent={fees2} />
+      </div>
+
+      <div className='fees-grid-small-screen'>
+        <FeesTable tableContent={[...fees1, ...fees2]} />
       </div>
 
       <div className='fees-text'>

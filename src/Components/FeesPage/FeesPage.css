@@ -1,4 +1,4 @@
-.fees-grid {
+.fees-grid-large-screen {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 50px;
@@ -26,8 +26,32 @@
 }
 
 .fees-info { 
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--opensans);
   font-size: 90%;
 }
 
-/* .fees-info a { color: var(--font-color); } */
+@media only screen and (max-width: 1023px){
+  .fees-grid-large-screen {
+    width: 110%;
+    margin: 0 -5%;
+    column-gap: 5px;
+    font-size: 95%;
+  }
+}
+
+@media only screen and (max-width: 896px){
+  .fees-grid-large-screen {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 896px){
+  .fees-text { width: 100%; }
+}
+
+@media only screen and (max-width: 896px){
+  .fees-grid-large-screen { display: none; }
+  .fees-grid-small-screen { display: block; }
+}
+

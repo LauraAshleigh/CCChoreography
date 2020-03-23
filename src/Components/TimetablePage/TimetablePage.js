@@ -37,11 +37,13 @@ const timetablePage = () => {
           )}
       </table>
 
-      <div className='age-groups'>
+      <div className='age-groups-wrapper'>
         <div className='red-text'>Age Groups:</div>
-        {ageGroups.map(group => 
-          <div key={group}>{group}</div>
-        )}
+        <div className='age-groups'>
+          {ageGroups.map(group => 
+            <div key={group}>{group}</div>
+          )}
+        </div>
       </div>
     </PageWrapper>
   )

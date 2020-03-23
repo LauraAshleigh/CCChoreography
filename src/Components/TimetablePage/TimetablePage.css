@@ -8,11 +8,16 @@
 
 .timetable-extra-info { font-size: 70%; }
 
-.age-groups {
+.age-groups-wrapper {
   display: flex;
   justify-content: space-between;
   font-size: 80%;
   margin: 40px 0;
+}
+
+.age-groups {
+  display: flex;
+  justify-content: space-between;
 }
 
 .download-timetable {
@@ -23,3 +28,46 @@
 }
 
 .download-timetable > div { margin-right: 5px; }
+
+@media only screen and (max-width: 1023px){
+  .timetable {
+    width: 110%;
+    margin: 0 -5%;
+  }
+
+  .age-groups-wrapper {
+    width: 110%;
+    margin: 40px -5%;
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 896px){
+  .timetable { 
+    width: 100%;
+    margin: 0;
+    font-size: 75%;
+  } 
+
+  .timetable-extra-info { font-size: 95%; }
+
+  .age-groups-wrapper {
+    width: 100%;
+    margin: 35px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .age-groups-wrapper { 
+    flex-direction: column;
+    font-size: 90%;
+  }
+  .age-groups {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4px;
+  }
+
+  .timetable { width: 180%; }
+}

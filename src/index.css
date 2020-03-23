@@ -93,6 +93,8 @@
   font-style: normal;
 }
 
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 :root {
   --font-color: #444;
   --red-color: #fc0013;
@@ -122,4 +124,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media only screen and (max-width: 1200px){
+  body { font-size: 18px; } 
+}
+
+@media only screen and (max-width: 896px){
+  body { font-size: 16px; }
 }

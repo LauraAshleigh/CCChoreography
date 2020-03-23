@@ -1,3 +1,6 @@
+.teachers-large-screen { display: block; }
+.teachers-small-screen { display: none; }
+
 .teacher-grid {
   display: grid;
   grid-template-columns: 250px 1fr;
@@ -17,15 +20,17 @@
 }
 
 .teacher-position {
-  font-family: 'JustLovely';
+  font-family: var(--justlovely);
   font-size: 150%;
   margin-bottom: 20px;
 }
 
-.teacher-about {
-  font-family: 'Open Sans', sans-serif;
+.teacher-about, .teacher-about-small-screen {
+  font-family: var(--opensans);
   font-size: 90%;
 }
+
+.teacher-about-small-screen { grid-column: 1 / span 2; }
 
 .awards-grid {
   display: grid;
@@ -34,7 +39,6 @@
 }
 
 .awards-grid, .performance-list { font-size: 85%; }
-
 
 .teacher-avatar {
   height: 250px;
@@ -55,4 +59,18 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 1023px){
+  .teacher-avatar { 
+    width: 180px;
+    height: 180px;
+  }
+
+  .teacher-grid { grid-template-columns: 180px 1fr; }
+}
+
+@media only screen and (max-width: 767px){
+  .teachers-large-screen { display: none; }
+  .teachers-small-screen { display: block; }
 }

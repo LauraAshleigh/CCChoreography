@@ -2,11 +2,11 @@ import React from 'react'
 import PageWrapper from '../PageWrapper/PageWrapper'
 
 const galleryPage = () => {
-    return (
-        <PageWrapper title='Gallery'>
+  return (
+    <PageWrapper title='Gallery'>
 
-        </PageWrapper>
-    )
+    </PageWrapper>
+  )
 }
 
 export default galleryPage

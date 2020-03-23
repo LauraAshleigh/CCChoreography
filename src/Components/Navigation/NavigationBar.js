@@ -1,29 +1,33 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, withRouter } from 'react-router-dom'
 import Icons from '../Icons/Icons'
 import ccsymbol from '../../images/symbol-black.png'
+import MobileNavDrawer from './MobileNavDrawer'
+import menu from './NavConfig'
 import './NavigationBar.css'
 
-const navigationBar = () => {
+const navigationBar = (props) => {
+
+  const onLogoClick = () => props.history.push('/')
+
   return (
     <div className='nav-bar'>
-      <div className='cc-symbol-wrapper'>
+      <div onClick={onLogoClick} className='cc-symbol-wrapper'>
         <img src={ccsymbol} alt='CC Choreography'/>
       </div>
       <div className='nav-links-wrapper'>
-        <NavLink to='/' exact className='nav-link'>Home</NavLink>
-        <NavLink to='/about' className='nav-link'>About</NavLink>
-        <NavLink to='/teachers' className='nav-link'>Teachers</NavLink>
-        <NavLink to='/timetable' className='nav-link'>Timetable</NavLink>
-        <NavLink to='/fees' className='nav-link'>Fees</NavLink>
-        <NavLink to='/testimonials' className='nav-link' >Testimonials</NavLink>
-        <NavLink to='/gallery' className='nav-link'>Gallery</NavLink>
-        <NavLink to='/contact' className='nav-link'>Contact</NavLink>
+        {menu.map(menuItem =>
+          <NavLink key={menuItem} className='nav-link' exact to={menuItem === 'Home' ? '/' : `/${menuItem.toLowerCase()}`}>
+            {menuItem}
+          </NavLink>
+        )}
       </div>
       
       <Icons instagram facebook />
+
+      <MobileNavDrawer />
     </div>
   )
 }
 
-export default navigationBar
+export default withRouter(navigationBar)

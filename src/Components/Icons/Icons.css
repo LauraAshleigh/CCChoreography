@@ -29,3 +29,7 @@
   font-size: 30%;
   text-align: center;
 }
+
+@media only screen and (max-width: 896px){
+  .icon-text { font-size: 40%; }
+}

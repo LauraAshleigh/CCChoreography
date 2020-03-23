@@ -1,18 +1,18 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import './App.css'
-import NavigationBar from './Components/Navigation/NavigationBar'
-import HomePage from './Components/HomePage/HomePage'
 import AboutPage from './Components/AboutPage/AboutPage'
-import TeachersPage from './Components/TeachersPage/TeachersPage'
-import TimetablePage from './Components/TimetablePage/TimetablePage'
-import FeesPage from './Components/FeesPage/FeesPage'
-import TestimonialsPage from './Components/TestimonialsPage/TestimonialsPage'
-import GalleryPage from './Components/GalleryPage/GalleryPage'
 import ContactPage from './Components/ContactPage/ContactPage'
+import FeesPage from './Components/FeesPage/FeesPage'
 import Footer from './Components/Footer/Footer'
+import GalleryPage from './Components/GalleryPage/GalleryPage'
+import HomePage from './Components/HomePage/HomePage'
+import NavigationBar from './Components/Navigation/NavigationBar'
+import TeachersPage from './Components/TeachersPage/TeachersPage'
+import TestimonialsPage from './Components/TestimonialsPage/TestimonialsPage'
+import TimetablePage from './Components/TimetablePage/TimetablePage'
+import './App.css'
 
-const app = () => {
+const App = () => {
   return (
     <div className="App">
       <NavigationBar />
@@ -31,4 +31,4 @@ const app = () => {
   )
 }
 
-export default app
+export default App

@@ -94,12 +94,12 @@ const teachers = [
     + 'He has danced overseas in Disneyland Anaheim, Disneyworld Florida and on board the '
     + 'Royal Caribbean Freedom of the Seas Cruise Ship.'
   },
-  {
-    name: 'Miss Gemma',
-    position: 'Dance Teacher & Choreographer',
-    image: '',
-    about: ''
-  }
+  // {
+  //   name: 'Miss Gemma',
+  //   position: 'Dance Teacher & Choreographer',
+  //   image: '',
+  //   about: ''
+  // }
 ]
 
 export default teachers
