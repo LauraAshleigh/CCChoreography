@@ -1,7 +1,10 @@
 .social-icons-wrapper{
   display: grid;
+  -webkit-box-align: center;
   align-items: center;
   font-size: 200%;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
   column-gap: 10px;
 }
 
@@ -21,7 +24,10 @@
 .social-icons-wrapper i:active { color: var(--red-color); }
 
 .icon-and-text {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
 }
 
@@ -30,6 +36,6 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 896px){
+@media only screen and (max-width: 896px) {
   .icon-text { font-size: 40%; }
 }

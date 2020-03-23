@@ -8,6 +8,7 @@ const homePage = () => {
   return (
   <div className='home-page'>
     <h1 className='cc-choreography'>CC Choreography</h1>
+    <hr className='divider-small-screen' />
     <h2 className='tag-line'>Unleashing everyone's inner dancer</h2>
     <div className='img-wrapper-left'>
     <img src={girl1} alt='CC Choreography'/>
@@ -16,7 +17,7 @@ const homePage = () => {
     <img src={girl2} alt='CC Choreography'/>
     </div>
 
-    <hr />
+    <hr className='divider-large-screen' />
     <div className='key-statements'>
       <div>Jazz</div>
       <div>Contemporary</div>

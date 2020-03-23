@@ -1,8 +1,12 @@
 .fees-grid-large-screen {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 50px;
+  -moz-column-gap: 50px;
   column-gap: 50px;
 }
+
+.fees-grid-small-screen { display: none; }
 
 .fees-table { font-size: 85%; }
 
@@ -30,27 +34,29 @@
   font-size: 90%;
 }
 
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1023px) {
   .fees-grid-large-screen {
     width: 110%;
     margin: 0 -5%;
+    -webkit-column-gap: 5px;
+    -moz-column-gap: 5px;
     column-gap: 5px;
     font-size: 95%;
   }
 }
 
-@media only screen and (max-width: 896px){
+@media only screen and (max-width: 896px) {
   .fees-grid-large-screen {
     width: 100%;
     margin: 0;
   }
 }
 
-@media only screen and (max-width: 896px){
+@media only screen and (max-width: 896px) {
   .fees-text { width: 100%; }
 }
 
-@media only screen and (max-width: 896px){
+@media only screen and (max-width: 896px) {
   .fees-grid-large-screen { display: none; }
   .fees-grid-small-screen { display: block; }
 }

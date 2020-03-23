@@ -1,13 +1,19 @@
 .home-page {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
+  -webkit-box-align: start;
   align-items: flex-start;
   padding: 10px 40px;
 }
 
 .cc-choreography {
   height: 150px;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
   margin: 30px auto 10px auto;
   z-index: 900;
@@ -38,40 +44,45 @@
 
 .img-wrapper-left > img, .img-wrapper-right > img { height: 100%; }
 
+.divider-small-screen { display: none; }
+
 .key-statements {
+  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   font-size: 90%;
   margin: 40px auto;
+  -webkit-box-pack: justify;
   justify-content: space-between;
   z-index: 900;
 }
 
 .home-page-gallery {
   display: none;
+  -webkit-box-pack: center;
   justify-content: center;
   height: 45vh;
 }
 
 .home-page-gallery div, .home-page-gallery img { height: 100%; }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {
   .cc-choreography, .tag-line { font-size: 350%; } 
   .key-statements { font-size: 85%; }
-  }
+}
 
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1023px) {
   .cc-choreography, .tag-line { font-size: 300%; }
   .img-wrapper-left, .img-wrapper-right { 
     height: 200px;
     top: 150px;
   }
-  .key-statements{ justify-content: space-evenly; }
+  .key-statements{ -webkit-box-pack: space-evenly; justify-content: space-evenly; }
   .key-statements > div { padding: 15px 35px; }
 }
 
-@media only screen and (max-width: 896px){
+@media only screen and (max-width: 896px) {
   .cc-choreography {
     height: 100px;
     margin-top: 80px;
@@ -81,7 +92,6 @@
     height: 200px;
     top: 150px;
   }
-  .key-statements{ justify-content: space-evenly; }
   .key-statements > div { padding: 15px 25px; }
 }
 
@@ -93,9 +103,13 @@
   }
   .tag-line { font-size: 230%; }
   .key-statements { display: none; }
-  .home-page-gallery { display: flex; }
+  .home-page-gallery { display: -webkit-box; display: flex; }
   .img-wrapper-left, .img-wrapper-right { display: none; }
+  .divider-small-screen { display: block; }
+  .divider-large-screen { display: none; }
 }
 
-
-
+@media only screen and (max-width: 480px) {
+  .cc-choreography { font-size: 180%; }
+  .tag-line { font-size: 200%; }
+}

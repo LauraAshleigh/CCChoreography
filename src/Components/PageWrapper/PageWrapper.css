@@ -20,14 +20,14 @@ hr {
   background-color: var(--red-color);
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {
   .page-wrapper { width: 85%; }
 }
 
-@media only screen and (max-width: 896px){
+@media only screen and (max-width: 896px) {
   .page-wrapper { width: 95%; }
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   hr { margin-bottom: 30px; }
 }
