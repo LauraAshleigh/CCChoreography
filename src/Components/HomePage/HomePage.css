@@ -118,7 +118,12 @@
   .cc-choreography { 
     font-size: 175%; 
     letter-spacing: 2px;
+    height: 60px;
+    margin-top: 15px;
   }
-  .tag-line { font-size: 230%; }
+  .tag-line { 
+    font-size: 230%;
+    margin-top: 0;
+  }
   .home-page-gallery { height: 35vh; }
 }
