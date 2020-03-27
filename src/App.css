@@ -28,3 +28,7 @@ table td, table th {
 
 a { color: var(--font-color); }
 a:hover { color: var(--red-color); }
+
+@media only screen and (max-width: 480px) {
+  table td, table th { padding: 8px 4px; }
+}

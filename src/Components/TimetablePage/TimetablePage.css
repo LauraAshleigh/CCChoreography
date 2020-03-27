@@ -84,5 +84,8 @@
     margin-left: 0;
   }
 
-  .timetable { width: 180%; }
+  .timetable { 
+    width: 180%; 
+    font-size: 70%;
+  }
 }
