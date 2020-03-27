@@ -1,34 +1,5 @@
 /* Just Lovely Font */
 @import url("//hello.myfonts.net/count/3ab5f0");
-
-/*   
-@font-face {
-  font-family: 'JustLovelyExtras';
-  src: url('./fonts/JustLovely/3AB5F0_0_0.eot');
-  src: url('./fonts/JustLovely/3AB5F0_0_0.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/JustLovely/3AB5F0_0_0.woff2') format('woff2'),
-       url('./fonts/JustLovely/3AB5F0_0_0.woff') format('woff'),
-       url('./fonts/JustLovely/3AB5F0_0_0.ttf') format('truetype');
-} */
-
-/* @font-face {
-  font-family: 'JustLovelySlanted';
-  src: url('./fonts/JustLovely/3AB5F0_1_0.eot');
-  src: url('./fonts/JustLovely/3AB5F0_1_0.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/JustLovely/3AB5F0_1_0.woff2') format('woff2'),
-       url('./fonts/JustLovely/3AB5F0_1_0.woff') format('woff'),
-       url('./fonts/JustLovely/3AB5F0_1_0.ttf') format('truetype');
-} */
- 
-/* @font-face {
-  font-family: 'JustLovelySlantedWide';
-  src: url('./fonts/JustLovely/3AB5F0_2_0.eot');
-  src: url('./fonts/JustLovely/3AB5F0_2_0.eot?#iefix') format('embedded-opentype'),
-  url('./fonts/JustLovely/3AB5F0_2_0.woff2') format('woff2'),
-  url('./fonts/JustLovely/3AB5F0_2_0.woff') format('woff'),
-  url('./fonts/JustLovely/3AB5F0_2_0.ttf') format('truetype');
-} */
- 
   
 @font-face {
   font-family: 'JustLovely';
@@ -39,15 +10,6 @@
   url('./fonts/JustLovely/3AB5F0_3_0.ttf') format('truetype');
 }
 
-/* Lemon Milk Font */
-/* @font-face {
-  font-family: 'lemonmilklight_italic';
-  src: url('./fonts/LemonMilk/lemonmilklightitalic-webfont.woff2') format('woff2'),
-       url('./fonts/LemonMilk/lemonmilklightitalic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-} */
-
 @font-face {
   font-family: 'lemonmilk_lightregular';
   src: url('./fonts/LemonMilk/lemonmilklight-webfont.woff2') format('woff2'),
@@ -55,38 +17,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-/* @font-face {
-  font-family: 'lemonmilkregular_italic';
-  src: url('./fonts/LemonMilk/lemonmilkitalic-webfont.woff2') format('woff2'),
-       url('./fonts/LemonMilk/lemonmilkitalic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-} */
-
-/* @font-face {
-  font-family: 'lemonmilkbold';
-  src: url('./fonts/LemonMilk/lemonmilkbolditalic-webfont.woff2') format('woff2'),
-       url('./fonts/LemonMilk/lemonmilkbolditalic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-} */
-
-/* @font-face {
-  font-family: 'lemonmilkbold';
-  src: url('./fonts/LemonMilk/lemonmilkbold-webfont.woff2') format('woff2'),
-       url('./fonts/LemonMilk/lemonmilkbold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-} */
-
-/* @font-face {
-  font-family: 'lemonmilkregular';
-  src: url('./fonts/LemonMilk/lemonmilk-webfont.woff2') format('woff2'),
-       url('./fonts/LemonMilk/lemonmilk-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-} */
 
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
