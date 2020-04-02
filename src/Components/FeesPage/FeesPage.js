@@ -22,7 +22,7 @@ const feesPage = () => {
           <b>Cash: </b> 
           Please place correct amount of cash in a sealed and labelled envelope clearly marked with child’s name and amount enclosed.
           <br/><br/>
-          <b>Direct Deibt: </b>
+          <b>Direct Debit: </b>
           Fees can be deposited into our account with Student Name in the Reference. Banking details can be found on your Invoice. 
           <br/><br/>
 	        <b>Active Kids and Creative Kids Vouchers:</b> We are a Registered Activity Provider and accept both the Active Kids and 

@@ -68,7 +68,7 @@ const teachers = [
     name: 'Miss Bella',
     position: 'Dance Teacher & Choreographer',
     image: bella,
-    about: 'Miss Bella joined our Dance Family in 2020! She has an infectious and friendly personality, '
+    about: 'Miss Bella joined our Dance Family in 2020! She has an bubbly and friendly personality, '
     + 'which the students have grown to adore very quickly!'
     + '<br><br>Bella started dancing at Baby Ballerinas and trained formally at Newcastle Ballet Theatre. '
     + 'She has completed her Certificate III and IV in Dance at Newcastle Ballet Theatre '
