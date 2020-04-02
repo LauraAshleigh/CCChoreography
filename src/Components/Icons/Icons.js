@@ -7,7 +7,7 @@ const icons = (props) => {
       {!props.instagram ? null :
         <div className='icon-and-text'>
           <a href='https://www.instagram.com/cc.choreography/?hl=en' target='__blank'>
-            <i className='fab fa-instagram'/>
+            <i className='fa fab fa-instagram'/>
           </a>
           {!(props.instagram && props.instagramAdults) ? null :
             <div className='icon-text'>(Kids)</div>
