@@ -1,6 +1,7 @@
 import chelsea from '../../images/chelsea.jpg'
 import max from '../../images/max.jpeg'
 import bella from '../../images/bella.png'
+import gemma from '../../images/gemma.jpg'
 
 const teachers = [
   {
@@ -94,12 +95,16 @@ const teachers = [
     + 'He has danced overseas in Disneyland Anaheim, Disneyworld Florida and on board the '
     + 'Royal Caribbean Freedom of the Seas Cruise Ship.'
   },
-  // {
-  //   name: 'Miss Gemma',
-  //   position: 'Dance Teacher & Choreographer',
-  //   image: '',
-  //   about: ''
-  // }
+  {
+    name: 'Miss Gemma',
+    position: 'Dance Teacher & Choreographer',
+    image: gemma,
+    about: 'Miss Gemma is a well-rounded dancer, teacher & choreographer! '
+    + 'She is trained in jazz, ballet, contemporary, commercial, hip hop, tap, ballroom, lyrical & musical theatre! '
+    + '<br><br>Gemma completed her RAD Ballet Exams up to intermediate level, '
+    + 'has her Diploma in Dance & Cert IV in Dance Teaching & Management, along with a Cert IV in Personal Training. '
+    + 'She has been trained by an array of successful choreographers and performed at many events around Australia!'
+  }
 ]
 
 export default teachers

@@ -1,0 +1,13 @@
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+  row-gap: 30px;
+}
+
+.cover-photo { width: 100%; }
+
+.cover-photo-title {
+  text-align: center;
+  margin-top: 15px;
+}

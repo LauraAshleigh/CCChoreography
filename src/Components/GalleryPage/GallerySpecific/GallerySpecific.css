@@ -1,0 +1,12 @@
+.image-gallery-icon:hover { 
+  color: var(--red-color) !important; 
+}
+
+.image-gallery-bullets .image-gallery-bullet:focus, 
+.image-gallery-bullets .image-gallery-bullet:hover {
+  background: var(--red-color) !important;
+}
+
+.image-gallery-thumbnail.active, .image-gallery-thumbnail:hover, .image-gallery-thumbnail:focus {
+  border-color: var(--red-color) !important;
+}

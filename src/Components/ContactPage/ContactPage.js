@@ -50,7 +50,7 @@ const contactPage = () => {
             className='map'
             title='CC Choreography Map'
             src='https://www.google.com/maps/d/u/0/embed?mid=1MgRb7k_L4ZZqfDm0xkxPKDyQeu8yofZ5' 
-            frameborder='0' allowfullscreen='' aria-hidden='false' tabindex='0' 
+            frameBorder='0' allowFullScreen='' aria-hidden='false' tabIndex='0' 
           />
         </div>
 
