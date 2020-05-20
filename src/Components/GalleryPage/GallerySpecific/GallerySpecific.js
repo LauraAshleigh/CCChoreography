@@ -9,7 +9,7 @@ const gallerySpecific = props => {
   const category = props.match.params.category
   
   return (
-    <PageWrapper title={`${category === 'danceevents' ? 'Dance Events' : category} Photos`}>
+    <PageWrapper smallTitle title={`${category === 'danceevents' ? 'Dance Events' : category} Photos`}>
       <ImageGallery showBullets items={images[category]} />
     </PageWrapper>
   )

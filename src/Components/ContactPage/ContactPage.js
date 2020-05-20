@@ -3,6 +3,7 @@ import PageWrapper from '../PageWrapper/PageWrapper'
 import chelsea from '../../images/chelsea.jpg'
 import TeacherAvatar from '../TeachersPage/TeacherAvatar'
 import Icons from '../Icons/Icons'
+import map from '../../images/map.png'
 import './ContactPage.css'
 
 const contactPage = () => {
@@ -11,7 +12,7 @@ const contactPage = () => {
       <div className='contact-details-grid'>
         <div className='contact-details'>
           <div className='chelsea-contact-details'>
-            <TeacherAvatar image={chelsea} altText='Chelsea Cole' />
+            <TeacherAvatar noGrow image={chelsea} altText='Chelsea Cole' />
             <div>
               <b>Principal Dancer &amp; Director:</b> 
               <div>Chelsea Cole</div>
@@ -27,7 +28,11 @@ const contactPage = () => {
 
           <div className='location-details'>
             <b>Studio Location:</b>
-            <div>Unit 23, 54 Clyde St, Hamilton North</div>
+            <div>
+              <a href='https://www.google.com/maps/place/23%2F54+Clyde+St,+Hamilton+North+NSW+2292/@-32.912182,151.7349957,17z/data=!3m1!4b1!4m5!3m4!1s0x6b7315a8623a528d:0xe400a8fc4bf35bee!8m2!3d-32.9121865!4d151.7371844' target='__blank'>
+                Unit 23, 54 Clyde St, Hamilton North
+              </a>
+            </div>
             <br />
             <b>Directions:</b>
             <div>
@@ -39,19 +44,7 @@ const contactPage = () => {
         </div>
 
         <div>
-          {/* <iframe 
-            className='map'
-            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.4698683030606!2d151.7349957147447!3d-32.912181977473566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b7315a8623a528d%3A0xe400a8fc4bf35bee!2s23%2F54%20Clyde%20St%2C%20Hamilton%20North%20NSW%202292!5e0!3m2!1sen!2sau!4v1584760620760!5m2!1sen!2sau' 
-            title='CC Choreography Map' 
-            frameborder='0' allowfullscreen='' aria-hidden='false' tabindex='0' 
-          /> */}
-          
-          <iframe 
-            className='map'
-            title='CC Choreography Map'
-            src='https://www.google.com/maps/d/u/0/embed?mid=1MgRb7k_L4ZZqfDm0xkxPKDyQeu8yofZ5' 
-            frameBorder='0' allowFullScreen='' aria-hidden='false' tabIndex='0' 
-          />
+          <img className='map' src={map} alt='CC Choreography Location' />
         </div>
 
       </div>

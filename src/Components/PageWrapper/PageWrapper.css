@@ -12,6 +12,8 @@
   margin: 20px 0;
 }
 
+.small-page-title.page-title { font-size: 200%; }
+
 hr {
   width: 200px;
   margin: 0 auto 50px auto;
@@ -34,4 +36,5 @@ hr {
 
 @media only screen and (max-width: 480px) {
   .page-title { font-size: 275%; }
+  .small-page-title.page-title { font-size: 150%; }
 }

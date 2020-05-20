@@ -43,8 +43,8 @@
 .awards-grid, .performance-list { font-size: 85%; }
 
 .teacher-avatar {
-  height: 250px;
-  width: 250px;
+  height: 230px;
+  width: 230px;
   position: relative;
 }
 
@@ -66,8 +66,8 @@
 
 @media only screen and (max-width: 1023px) {
   .teacher-avatar { 
-    width: 180px;
-    height: 180px;
+    width: 165px;
+    height: 165px;
   }
 
   .teacher-grid { grid-template-columns: 180px 1fr; }

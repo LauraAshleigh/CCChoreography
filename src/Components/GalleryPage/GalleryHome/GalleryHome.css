@@ -1,6 +1,7 @@
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 15px;
   column-gap: 15px;
   row-gap: 30px;
 }
@@ -10,4 +11,8 @@
 .cover-photo-title {
   text-align: center;
   margin-top: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
 }
