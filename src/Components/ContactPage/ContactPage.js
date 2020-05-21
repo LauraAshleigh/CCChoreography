@@ -43,7 +43,7 @@ const contactPage = () => {
           </div>
         </div>
 
-        <div>
+        <div className='map-container'>
           <img className='map' src={map} alt='CC Choreography Location' />
         </div>
 
