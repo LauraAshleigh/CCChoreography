@@ -10,3 +10,8 @@
 .image-gallery-thumbnail.active, .image-gallery-thumbnail:hover, .image-gallery-thumbnail:focus {
   border-color: var(--red-color) !important;
 }
+
+.concert-link {
+  text-align: center;
+  margin-bottom: 30px;
+}

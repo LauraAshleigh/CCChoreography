@@ -17,6 +17,47 @@ import eightDanceSmall from '../../images/DanceEvents/IMG-8-150.jpg'
 import nineDance from '../../images/DanceEvents/IMG-9.JPG'
 import nineDanceSmall from '../../images/DanceEvents/IMG-9-150.jpg'
 
+import one2020 from '../../images/2020/IMG-1.jpeg'
+import one2020Small from '../../images/2020/IMG-1-150.jpg'
+import two2020 from '../../images/2020/IMG-2.jpeg'
+import two2020Small from '../../images/2020/IMG-2-150.jpeg'
+import three2020 from '../../images/2020/IMG-3.jpeg'
+import three2020Small from '../../images/2020/IMG-3-150.jpeg'
+import four2020 from '../../images/2020/IMG-4.jpeg'
+import four2020Small from '../../images/2020/IMG-4-150.jpg'
+import five2020 from '../../images/2020/IMG-5.jpeg'
+import five2020Small from '../../images/2020/IMG-5-150.jpeg'
+import six2020 from '../../images/2020/IMG-6.jpeg'
+import six2020Small from '../../images/2020/IMG-6-150.jpeg'
+import seven2020 from '../../images/2020/IMG-7.jpeg'
+import seven2020Small from '../../images/2020/IMG-7-150.jpeg'
+import eight2020 from '../../images/2020/IMG-8.jpeg'
+import eight2020Small from '../../images/2020/IMG-8-150.jpg'
+import nine2020 from '../../images/2020/IMG-9.jpeg'
+import nine2020Small from '../../images/2020/IMG-9-150.jpeg'
+import ten2020 from '../../images/2020/IMG-10.jpeg'
+import ten2020Small from '../../images/2020/IMG-10-150.jpeg'
+import eleven2020 from '../../images/2020/IMG-11.jpeg'
+import eleven2020Small from '../../images/2020/IMG-11-150.jpeg'
+import twelve2020 from '../../images/2020/IMG-12.jpeg'
+import twelve2020Small from '../../images/2020/IMG-12-150.jpeg'
+import thirteen2020 from '../../images/2020/IMG-13.jpeg'
+import thirteen2020Small from '../../images/2020/IMG-13-150.jpeg'
+import fourteen2020 from '../../images/2020/IMG-14.jpeg'
+import fourteen2020Small from '../../images/2020/IMG-14-150.jpeg'
+import fifteen2020 from '../../images/2020/IMG-15.jpeg'
+import fifteen2020Small from '../../images/2020/IMG-15-150.jpeg'
+import sixteen2020 from '../../images/2020/IMG-16.jpeg'
+import sixteen2020Small from '../../images/2020/IMG-16-150.jpg'
+import seventeen2020 from '../../images/2020/IMG-17.jpeg'
+import seventeen2020Small from '../../images/2020/IMG-17-150.jpeg'
+import eighteen2020 from '../../images/2020/IMG-18.jpeg'
+import eighteen2020Small from '../../images/2020/IMG-18-150.jpeg'
+import nineteen2020 from '../../images/2020/IMG-19.jpeg'
+import nineteen2020Small from '../../images/2020/IMG-19-150.jpeg'
+import twenty2020 from '../../images/2020/IMG-20.jpeg'
+import twenty2020Small from '../../images/2020/IMG-20-150.jpeg'
+
 import one2019 from '../../images/2019/IMG-1.JPG'
 import one2019Small from '../../images/2019/IMG-1-150.jpg'
 import two2019 from '../../images/2019/IMG-2.JPG'
@@ -236,6 +277,16 @@ const images = {
     {original: fiveDance, thumbnail: fiveDanceSmall}, {original: sixDance, thumbnail: sixDanceSmall}, 
     {original: sevenDance, thumbnail: sevenDanceSmall}, {original: eightDance, thumbnail: eightDanceSmall}, 
     {original: nineDance, thumbnail: nineDanceSmall}],
+  '2020': [{original: one2020, thumbnail: one2020Small}, {original: two2020, thumbnail: two2020Small},
+    {original: three2020, thumbnail: three2020Small}, {original: four2020, thumbnail: four2020Small},
+    {original: five2020, thumbnail: five2020Small}, {original: six2020, thumbnail: six2020Small},
+    {original: seven2020, thumbnail: seven2020Small}, {original: eight2020, thumbnail: eight2020Small},
+    {original: nine2020, thumbnail: nine2020Small}, {original: ten2020, thumbnail: ten2020Small}, 
+    {original: eleven2020, thumbnail: eleven2020Small}, {original: twelve2020, thumbnail: twelve2020Small}, 
+    {original: thirteen2020, thumbnail: thirteen2020Small}, {original: fourteen2020, thumbnail: fourteen2020Small}, 
+    {original: fifteen2020, thumbnail: fifteen2020Small}, {original: sixteen2020, thumbnail: sixteen2020Small}, 
+    {original: seventeen2020, thumbnail: seventeen2020Small}, {original: eighteen2020, thumbnail: eighteen2020Small}, 
+    {original: nineteen2020, thumbnail: nineteen2020Small}, {original: twenty2020, thumbnail: twenty2020Small}],
   '2019': [{original: one2019, thumbnail: one2019Small}, {original: two2019, thumbnail: two2019Small}, 
     {original: three2019, thumbnail: three2019Small}, {original: four2019, thumbnail: four2019Small}, 
     {original: five2019, thumbnail: five2019Small}, {original: six2019, thumbnail: six2019Small}, 
