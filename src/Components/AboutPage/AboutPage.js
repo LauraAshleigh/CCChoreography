@@ -48,7 +48,7 @@ const aboutPage = () => {
             </div>
 
             <a href={InfoPack} download className='download-info-pack'>
-              <div>Download 2020 Information Pack</div>
+              <div>Download 2021 Information Pack</div>
               <i className='fas fa-download'/>
             </a>
           </div>
@@ -66,8 +66,29 @@ const aboutPage = () => {
           <i className='fas fa-download'/>
         </a>
       </div>
+
+    <h2 className='about-sub-heading'>Facilities</h2>
+    <hr />
+
+    <div className='about-text facilities'>
+      We have a new, purpose built dance studio featuring:
+      <ul>
+        <li>Tap dancing floor</li>
+        <li>Commercial floor (for all other dance styles)</li>
+        <li>15 metre long mirrored wall</li>
+        <li>Ballet barres</li>
+        <li>Air conditioning</li>
+        <li>Fans</li>
+        <li>Bathroom</li>
+        <li>Ample space for students' belongings</li>
+      </ul>
+
+      <div>
+        We are situated at <a href='https://www.google.com/maps/place/23%2F54+Clyde+St,+Hamilton+North+NSW+2292/@-32.912182,151.7349957,17z/data=!3m1!4b1!4m5!3m4!1s0x6b7315a8623a528d:0xe400a8fc4bf35bee!8m2!3d-32.9121865!4d151.7371844' target='__blank'>Unit 23, 54 Clyde St, Hamilton North</a>. 
+      </div>
+    </div>
      
-     <h2 className='dance-styles-heading'>Dance Styles</h2>
+     <h2 className='about-sub-heading'>Dance Styles</h2>
      <hr />
 
       <div className='dance-styles-grid'>
