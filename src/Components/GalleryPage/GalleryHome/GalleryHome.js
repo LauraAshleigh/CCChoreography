@@ -11,7 +11,7 @@ import images from '../GalleryConfig'
 import './GalleryHome.css'
 
 const galleryHome = props => {
-  const galleryCategories = ['Dance Events', '2019', '2018', '2017', '2016', '2015']
+  const galleryCategories = ['Dance Events', '2020', '2019', '2018', '2017', '2016', '2015']
 
   return (
     <PageWrapper title='Gallery'>
