@@ -50,12 +50,12 @@ const timetablePage = () => {
         </div>
       </div>
 
-      <div className='sub-timetable-info-wrapper'>
+      {/* <div className='sub-timetable-info-wrapper'>
         <div className='red-text'>Term 1 Starts:</div>
         <div className='sub-timetable-info'>
           Friday 29th January - Thursday 1st April (9 week term)
         </div>
-      </div>
+      </div> */}
     </PageWrapper>
   )
 }
