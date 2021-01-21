@@ -9,6 +9,10 @@
   padding: 10px 40px;
 }
 
+.home-page hr {
+  margin: 0 auto 20px auto;
+}
+
 .cc-choreography {
   height: 150px;
   display: -webkit-box;

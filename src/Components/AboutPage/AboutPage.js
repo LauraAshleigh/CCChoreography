@@ -62,7 +62,7 @@ const aboutPage = () => {
         </div>
 
         <a href={InfoPack} download className='download-info-pack'>
-          <div>Download 2020 Information Pack</div>
+          <div>Download 2021 Information Pack</div>
           <i className='fas fa-download'/>
         </a>
       </div>

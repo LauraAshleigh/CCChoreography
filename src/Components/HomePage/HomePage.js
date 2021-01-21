@@ -3,6 +3,7 @@ import './HomePage.css'
 import girl1 from '../../images/girl-1.png'
 import girl2 from '../../images/girl-2.png'
 import Gallery from './Gallery'
+import InfoPack from '../AboutPage/InfoPack.pdf'
 
 const homePage = () => {
   return (
@@ -18,6 +19,12 @@ const homePage = () => {
     </div>
 
     <hr className='divider-large-screen' />
+
+    <a href={InfoPack} download className='download-info-pack'>
+      <div>Download 2021 Information Pack</div>
+      <i className='fas fa-download'/>
+    </a>
+
     <div className='key-statements'>
       <div>Jazz</div>
       <div>Contemporary</div>
