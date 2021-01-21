@@ -11,6 +11,5 @@ export const fees2 = [
   {class: 'Solo Lesson', price: '$32 / 30 minutes'},
   {class: 'Duo Lesson', price: '$20 / 30 minutes p.p.'},
   {class: 'Trio Lesson', price: '$10 / 30 minutes p.p.'},
-  {class: 'Registration Fee (annual)', price: '$60 (includes studio top)'},
-  {class: 'Eisteddfod Fee (annual)', price: '$80 (includes personalised studio jacket & all eisteddfod entry fees)'}
+  {class: 'Registration Fee (annual)', price: '$60 (includes studio top)'}
 ]
